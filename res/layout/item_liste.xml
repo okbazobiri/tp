@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:stretchColumns="1">
+        <TextView
+        android:text="num_commande"
+        android:gravity="center"
+        android:id="@+id/et_num_commande"
+        />
+        <TableRow>
+        <TextView
+            android:text="Total:"
+            android:textColor="#2196F3"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/et_commande"
+            />
+    </TableRow>
+        <TableRow>
+        <TextView
+            android:text="Date:"
+            android:textColor="#2196F3"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/et_date_commande"
+            />
+    </TableRow>
+</TableLayout>
